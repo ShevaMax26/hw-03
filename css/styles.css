@@ -6,6 +6,7 @@
     --color-light: #757575;
 
     --bg-dark: #2F303A;
+    --bg-light: #F5F4FA;
 
     --weight-regular: 400;
     --weight-medium: 500;
@@ -134,7 +135,7 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-white);
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .order-service__btn {
     cursor: pointer;
@@ -195,6 +196,9 @@ ul {
     margin-bottom: 10px;
 }
 /*------- our-work -------*/
+.our-work__section {
+    padding-bottom: 94px;
+}
 .our-work__list {
     display: flex;
     align-items: center;
@@ -213,6 +217,9 @@ ul {
     height: 100%;
 }
 /*------- team -------*/
+.team {
+    background: var(--bg-light);
+}
 .team__list {
     display: flex;
 }
